@@ -1,0 +1,230 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--navbar-height: 102px;
+}
+
+p {
+	font-family: "TT Hoves Pro Trial", sans-serif;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: var(--navbar-height);
+}
+
+.main-content {
+	padding-top: var(--navbar-height);
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+}
+
+.nav-start {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.nav-start-text {
+	font-size: 0.5rem;
+	text-transform: uppercase;
+}
+
+.nav-end {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.main-head {
+	border: 0.13rem solid;
+	border-right: none;
+	border-left: none;
+}
+
+.hero-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+	padding: 2rem; /* Adds padding for breathing space */
+	gap: 2rem; /* Adds spacing between sections */
+}
+
+.hero-h-first {
+	margin-bottom: -1rem;
+	color: #bdbdbd;
+	font-weight: 300;
+}
+
+.hero-h {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	font-family: "TT Hoves Pro Trial", sans-serif;
+}
+
+.hero-img-cont {
+	position: relative;
+  max-width: 100%;
+}
+
+.hero-img {
+	max-width: 100%;
+	height: auto;
+}
+
+.img-browse-button {
+	position: absolute;
+	bottom: 4px;
+}
+
+.main-button {
+	width: 200px;
+	height: 71px;
+	border: none;
+	background-color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+  font-size: 0.9rem;
+}
+
+.hero-left {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2rem; /* Reduces gap for better layout on small screens */
+}
+
+.img-selectors {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.img-selector-left {
+	width: 52.95px;
+	height: 53px;
+	background-color: #f2f2f2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-selector-right {
+	width: 52.95px;
+	height: 53px;
+	background-color: #d9d9d9;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-num {
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+}
+
+.img-num p {
+	color: #bdbdbd;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	font-style: italic;
+	display: inline;
+}
+
+.img-num span {
+	color: #bdbdbd;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	font-style: italic;
+	letter-spacing: 10px;
+	display: inline;
+}
+
+.designs-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.designs-main {
+	background-color: #fbfbfb;
+	/* max-width: 80%; */
+  flex-wrap: wrap;
+  margin: 100px;
+	display: flex;
+	gap: 2rem;
+}
+
+.designs-right {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1rem;
+  max-width: 50%;
+}
+
+.designs-h {
+	color: #bdbdbd;
+	font-weight: 300;
+	font-size: clamp(2rem, 0.818rem + 0.91vw, 2.5rem);
+	/* line-height: 64px;  */
+}
+
+.designs-h::first-letter {
+	font-size: clamp(2.5rem, 1.818rem + 0.91vw, 2.9rem);
+	margin-right: 3px;
+}
+
+.designs-button {
+	width: 221px;
+	height: 71px;
+	border: none;
+	background-color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+.designs-left {
+	display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.designs-col-images {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  align-items: center;
+	gap: 2rem;
+}
+
+.designs-img {
+	max-width: 270px;
+	/* max-height: 15rem; */
+}
+
+.out-bound-image {
+  margin-bottom: -1.5rem
+}
